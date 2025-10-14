@@ -1,0 +1,100 @@
+﻿@using Microsoft.AspNetCore.Http.HttpResults
+@model IEnumerable<SkyTravel.Models.Fly>
+
+<div class="row">
+    <div class="col-md-9">
+        <table class="table table-bordered">
+            <h2>Lista de vuelos</h2>
+            <thead>
+            @if (Model.Any())
+            {
+                <tr>
+                    <th>Id</th>
+                    <th>Code</th>
+                    <th>Origin</th>
+                    <th>Destination</th>
+                    <th>Exit time</th>
+                    <th>Arrive time</th>
+                    <th>Seats</th>
+                    <th>Status</th>
+                </tr>
+            }
+            </thead>
+            <tbody>
+            @if (TempData["DeleteError"] != null)
+            {
+                <div class="alert alert-danger alert-dismissible fade show">
+                    @TempData["DeleteError"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+            }@if (TempData["DeleteSuccess"] != null)
+             {
+                 <div class="alert alert-success alert-dismissible fade show">
+                     @TempData["DeleteSuccess"]
+                     <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                 </div>
+             } @if (!Model.Any())
+               {
+                   <h1 class="alert-danger">No hay ningun Vuelo programado</h1>
+               }
+               else
+               {
+                   foreach (var item in Model)
+                   {
+                       <tr>
+                           <td>@item.Id</td>
+                           <td>@item.Code</td>
+                           <td>@item.Origin</td>
+                           <td>@item.Destination</td>
+                           <td>@item.TimeOfExit</td>
+                           <td>@item.TimeOfArrival</td>
+                           <td>@item.TotalSeats</td>
+                           <td>@item.Status</td>
+                       </tr>
+                   }
+               }
+            </tbody>
+        </table>
+    </div>
+    <div class="col-md-3 sticky-top">
+        <div class="card">
+            <div class="card-body">
+                @if (TempData["ErrorAdd"] != null)
+                {
+                    <div class="alert alert-danger alert-dismissible fade show">
+                        @TempData["ErrorAdd"]
+                        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    </div>
+                }
+                @if (TempData["SuccessAdd"] != null)
+                {
+                    <div class="alert alert-success alert-dismissible fade show">
+                        @TempData["SuccessAdd"]
+                        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    </div>
+                }
+            
+                <form asp-action="Register" method="post">
+                    <div class="mt-3">
+                        <label>FullName</label>
+                        <input type="text" class="form-control" name="FullName" required>
+                    </div>
+                    <div class="mt-3">
+                        <label>Document</label>
+                        <input type="text" class="form-control" name="Document" required>
+                    </div>
+                    <div class="mt-3">
+                        <label>Email</label>
+                        <input type="email" class="form-control" name="Email" required>
+                    </div>
+                    <div class="mt-3">
+                        <label>PhoneNumber</label>
+                        <input type="text" class="form-control" name="PhoneNumber" required>
+                    </div>
+                    <hr>
+                    <button type="submit" class="btn btn-primary w-100">Add User</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

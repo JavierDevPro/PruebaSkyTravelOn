@@ -17,49 +17,53 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SkyTravel
 build_property.RootNamespace = SkyTravel
-build_property.ProjectDir = /home/javierdev/Escritorio/JavierDevMañana/C#/Prueba1/SkyTravel/
+build_property.ProjectDir = D:\Docs\C learning\LaPruebaFinal\PruebaSkyTravelOn\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/javierdev/Escritorio/JavierDevMañana/C#/Prueba1/SkyTravel
+build_property.MSBuildProjectDirectory = D:\Docs\C learning\LaPruebaFinal\PruebaSkyTravelOn
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[/home/javierdev/Escritorio/JavierDevMañana/C\#/Prueba1/SkyTravel/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[D:/Docs/C learning/LaPruebaFinal/PruebaSkyTravelOn/Views/Fly/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmx5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/javierdev/Escritorio/JavierDevMañana/C\#/Prueba1/SkyTravel/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[D:/Docs/C learning/LaPruebaFinal/PruebaSkyTravelOn/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/javierdev/Escritorio/JavierDevMañana/C\#/Prueba1/SkyTravel/Views/Passenger/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFzc2VuZ2VyL0VkaXQuY3NodG1s
+[D:/Docs/C learning/LaPruebaFinal/PruebaSkyTravelOn/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/javierdev/Escritorio/JavierDevMañana/C\#/Prueba1/SkyTravel/Views/Passenger/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFzc2VuZ2VyL0luZGV4LmNzaHRtbA==
+[D:/Docs/C learning/LaPruebaFinal/PruebaSkyTravelOn/Views/Passenger/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc2VuZ2VyXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/javierdev/Escritorio/JavierDevMañana/C\#/Prueba1/SkyTravel/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[D:/Docs/C learning/LaPruebaFinal/PruebaSkyTravelOn/Views/Passenger/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc2VuZ2VyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/javierdev/Escritorio/JavierDevMañana/C\#/Prueba1/SkyTravel/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[D:/Docs/C learning/LaPruebaFinal/PruebaSkyTravelOn/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/javierdev/Escritorio/JavierDevMañana/C\#/Prueba1/SkyTravel/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[D:/Docs/C learning/LaPruebaFinal/PruebaSkyTravelOn/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/javierdev/Escritorio/JavierDevMañana/C\#/Prueba1/SkyTravel/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[D:/Docs/C learning/LaPruebaFinal/PruebaSkyTravelOn/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/javierdev/Escritorio/JavierDevMañana/C\#/Prueba1/SkyTravel/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-ziodi4zepn
+[D:/Docs/C learning/LaPruebaFinal/PruebaSkyTravelOn/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Docs/C learning/LaPruebaFinal/PruebaSkyTravelOn/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-v5oamepihm

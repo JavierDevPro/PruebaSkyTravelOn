@@ -35,14 +35,14 @@ public class PassengerController : Controller
             if (await Exist(entity.Document))
             {
                 //dato temporal con alerta
-                TempData["Error"] = $"El documento {entity.Document} ya está registrado";
+                TempData["ErrorAdd"] = $"El documento {entity.Document} ya está registrado";
                 return RedirectToAction(nameof(ListAll));
             }
 
             _context.Passengers.Add(entity);
             await _context.SaveChangesAsync();
 
-            TempData["Success"] = "Usuario registrado correctamente";
+            TempData["SuccessAdd"] = "Usuario registrado correctamente";
             return RedirectToAction(nameof(ListAll));
         }
         catch (Exception)
@@ -91,7 +91,7 @@ public class PassengerController : Controller
         }
     }
 
-    [HttpDelete]
+    [HttpPost]
     public async Task<IActionResult> Delete(int Id)
     {
         try
@@ -101,23 +101,22 @@ public class PassengerController : Controller
             {
                 _context.Passengers.Remove(passenger);
                 await _context.SaveChangesAsync();
-                TempData["Success"] = "Pasajero actualizado exitosamente!";
+                TempData["DeleteSuccess"] = "Pasajero eliminado exitosamente!";
             }else
             {
-                TempData["Error"] = $"El pasajero no se pudo encontrar";
+                TempData["DeleteError"] = $"El pasajero no se pudo encontrar";
             }
-            return RedirectToAction("Index");
+            
         }
         catch (HttpRequestException e)
         {
-            TempData["Error"] = $"Error al intentar eliminar en la Base da datos: {e.Message}";
-            return RedirectToAction(nameof(Index));
+            TempData["DeleteError"] = $"Error al intentar eliminar en la Base da datos: {e.Message}";
         }
         catch (Exception e)
         {
-            TempData["Error"] = $"ERROR: {e.Message}";
-            return RedirectToAction(nameof(Index));
+            TempData["DeleteError"] = $"ERROR: {e.Message}";
         }
+        return RedirectToAction("Index");
     }
 
     [HttpGet]

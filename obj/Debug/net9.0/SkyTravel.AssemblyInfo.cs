@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SkyTravel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4609da6d56156ef413f7eecc5e0a3b88760edea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42c0bb8c4ef7f305b03683de398c47d3de246be9")]
 [assembly: System.Reflection.AssemblyProductAttribute("SkyTravel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SkyTravel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
